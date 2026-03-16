@@ -1,0 +1,2713 @@
+{
+    "meta": {
+        "applicationMode": "production",
+        "senderId": "STEDI",
+        "transactionId": "c0a454f5-2296-4f32-b9c2-1d1c32da9596"
+    },
+    "transactions": [
+        {
+            "controlNumber": "1",
+            "detailInfo": [
+                {
+                    "assignedNumber": "1",
+                    "paymentInfo": [
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "718.76",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "259451070902",
+                                "payerClaimControlNumber": "26055Z0056281",
+                                "totalClaimChargeAmount": "718.76"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "718.76"
+                            },
+                            "patientName": {
+                                "firstName": "GAIL",
+                                "lastName": "ADAMS",
+                                "memberId": "259451070902",
+                                "middleName": "D"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "718.76",
+                                        "lineItemProviderPaymentAmount": "718.76",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "7"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "718.76"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "2669.68",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "103413057399",
+                                "payerClaimControlNumber": "26055Z0056276",
+                                "totalClaimChargeAmount": "2669.68"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "2669.68"
+                            },
+                            "patientName": {
+                                "firstName": "ZACHARIAH",
+                                "lastName": "ASHLAND",
+                                "memberId": "103413057399",
+                                "middleName": "A"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "2669.68",
+                                        "lineItemProviderPaymentAmount": "2669.68",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "26"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "2669.68"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3080.4",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "873029397701",
+                                "payerClaimControlNumber": "26055Z0057662",
+                                "totalClaimChargeAmount": "3080.4"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3080.4"
+                            },
+                            "patientName": {
+                                "firstName": "MARK",
+                                "lastName": "BENSCHOTER",
+                                "memberId": "873029397701",
+                                "middleName": "A"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3080.4",
+                                        "lineItemProviderPaymentAmount": "3080.4",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "30"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3080.4"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3080.4",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "107571198499",
+                                "payerClaimControlNumber": "26055Z0056652",
+                                "totalClaimChargeAmount": "3080.4"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3080.4"
+                            },
+                            "patientName": {
+                                "firstName": "LYNNE",
+                                "lastName": "BLAKEMORE",
+                                "memberId": "107571198499",
+                                "middleName": "A"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3080.4",
+                                        "lineItemProviderPaymentAmount": "3080.4",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "30"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3080.4"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "102.68",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "103334652799",
+                                "payerClaimControlNumber": "26055Z0056651",
+                                "totalClaimChargeAmount": "102.68"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "102.68"
+                            },
+                            "patientName": {
+                                "firstName": "DOROTHY",
+                                "lastName": "CATCHINGS",
+                                "memberId": "103334652799",
+                                "middleName": "M"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "102.68",
+                                        "lineItemProviderPaymentAmount": "102.68",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "2"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "102.68"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3080.4",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "314155727602",
+                                "payerClaimControlNumber": "26055Z0056646",
+                                "totalClaimChargeAmount": "3080.4"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3080.4"
+                            },
+                            "patientName": {
+                                "firstName": "VERONICA",
+                                "lastName": "DYER",
+                                "memberId": "314155727602"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3080.4",
+                                        "lineItemProviderPaymentAmount": "3080.4",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "30"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3080.4"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "1334.84",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "910001591765",
+                                "payerClaimControlNumber": "26052Z0008994",
+                                "totalClaimChargeAmount": "1334.84"
+                            },
+                            "claimReceivedDate": "20260221",
+                            "claimStatementPeriodEnd": "2025-09-30",
+                            "claimStatementPeriodStart": "2025-09-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "1334.84"
+                            },
+                            "patientName": {
+                                "firstName": "FAYE",
+                                "lastName": "FASTZKIE",
+                                "memberId": "910001591765"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20250930",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "1334.84",
+                                        "lineItemProviderPaymentAmount": "1334.84",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "13"
+                                    },
+                                    "serviceStartDate": "20250901",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "1334.84"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3183.08",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "910001591765",
+                                "payerClaimControlNumber": "26054Z0018126",
+                                "totalClaimChargeAmount": "3183.08"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-10-31",
+                            "claimStatementPeriodStart": "2025-10-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3183.08"
+                            },
+                            "patientName": {
+                                "firstName": "FAYE",
+                                "lastName": "FASTZKIE",
+                                "memberId": "910001591765"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251031",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3183.08",
+                                        "lineItemProviderPaymentAmount": "3183.08",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "31"
+                                    },
+                                    "serviceStartDate": "20251001",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3183.08"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3080.4",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "910001591765",
+                                "payerClaimControlNumber": "26055Z0056650",
+                                "totalClaimChargeAmount": "3080.4"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3080.4"
+                            },
+                            "patientName": {
+                                "firstName": "FAYE",
+                                "lastName": "FASTZKIE",
+                                "memberId": "910001591765"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3080.4",
+                                        "lineItemProviderPaymentAmount": "3080.4",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "30"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3080.4"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3080.4",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "483408241601",
+                                "payerClaimControlNumber": "26055Z0056655",
+                                "totalClaimChargeAmount": "3080.4"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3080.4"
+                            },
+                            "patientName": {
+                                "firstName": "ALICIA",
+                                "lastName": "GLOVER",
+                                "memberId": "483408241601"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3080.4",
+                                        "lineItemProviderPaymentAmount": "3080.4",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "30"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3080.4"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "1129.48",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "910000210346",
+                                "payerClaimControlNumber": "26052Z0008659",
+                                "totalClaimChargeAmount": "1129.48"
+                            },
+                            "claimReceivedDate": "20260220",
+                            "claimStatementPeriodEnd": "2025-06-30",
+                            "claimStatementPeriodStart": "2025-06-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "1129.48"
+                            },
+                            "patientName": {
+                                "firstName": "JONATHAN",
+                                "lastName": "HARADA",
+                                "memberId": "910000210346",
+                                "middleName": "S"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20250630",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "1129.48",
+                                        "lineItemProviderPaymentAmount": "1129.48",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "11"
+                                    },
+                                    "serviceStartDate": "20250601",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "1129.48"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3183.08",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "910000210346",
+                                "payerClaimControlNumber": "26052Z0008705",
+                                "totalClaimChargeAmount": "3183.08"
+                            },
+                            "claimReceivedDate": "20260220",
+                            "claimStatementPeriodEnd": "2025-07-31",
+                            "claimStatementPeriodStart": "2025-07-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3183.08"
+                            },
+                            "patientName": {
+                                "firstName": "JONATHAN",
+                                "lastName": "HARADA",
+                                "memberId": "910000210346",
+                                "middleName": "S"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20250731",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3183.08",
+                                        "lineItemProviderPaymentAmount": "3183.08",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "31"
+                                    },
+                                    "serviceStartDate": "20250701",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3183.08"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3183.08",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "910000210346",
+                                "payerClaimControlNumber": "26052Z0008723",
+                                "totalClaimChargeAmount": "3183.08"
+                            },
+                            "claimReceivedDate": "20260220",
+                            "claimStatementPeriodEnd": "2025-08-30",
+                            "claimStatementPeriodStart": "2025-08-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3183.08"
+                            },
+                            "patientName": {
+                                "firstName": "JONATHAN",
+                                "lastName": "HARADA",
+                                "memberId": "910000210346",
+                                "middleName": "S"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20250830",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3183.08",
+                                        "lineItemProviderPaymentAmount": "3183.08",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "31"
+                                    },
+                                    "serviceStartDate": "20250801",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3183.08"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3080.4",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "910000210346",
+                                "payerClaimControlNumber": "26052Z0009002",
+                                "totalClaimChargeAmount": "3080.4"
+                            },
+                            "claimReceivedDate": "20260221",
+                            "claimStatementPeriodEnd": "2025-09-30",
+                            "claimStatementPeriodStart": "2025-09-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3080.4"
+                            },
+                            "patientName": {
+                                "firstName": "JONATHAN",
+                                "lastName": "HARADA",
+                                "memberId": "910000210346",
+                                "middleName": "S"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20250930",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3080.4",
+                                        "lineItemProviderPaymentAmount": "3080.4",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "30"
+                                    },
+                                    "serviceStartDate": "20250901",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3080.4"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3183.08",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "910000210346",
+                                "payerClaimControlNumber": "26054Z0018117",
+                                "totalClaimChargeAmount": "3183.08"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-10-31",
+                            "claimStatementPeriodStart": "2025-10-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3183.08"
+                            },
+                            "patientName": {
+                                "firstName": "JONATHAN",
+                                "lastName": "HARADA",
+                                "memberId": "910000210346",
+                                "middleName": "S"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251031",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3183.08",
+                                        "lineItemProviderPaymentAmount": "3183.08",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "31"
+                                    },
+                                    "serviceStartDate": "20251001",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3183.08"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3080.4",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "910000210346",
+                                "payerClaimControlNumber": "26055Z0056643",
+                                "totalClaimChargeAmount": "3080.4"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3080.4"
+                            },
+                            "patientName": {
+                                "firstName": "JONATHAN",
+                                "lastName": "HARADA",
+                                "memberId": "910000210346",
+                                "middleName": "S"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3080.4",
+                                        "lineItemProviderPaymentAmount": "3080.4",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "30"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3080.4"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "1129.48",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "484409451802",
+                                "payerClaimControlNumber": "26055Z0056280",
+                                "totalClaimChargeAmount": "1129.48"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "1129.48"
+                            },
+                            "patientName": {
+                                "firstName": "BETTY",
+                                "lastName": "HARRIS",
+                                "memberId": "484409451802",
+                                "middleName": "L"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "1129.48",
+                                        "lineItemProviderPaymentAmount": "1129.48",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "11"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "1129.48"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3080.4",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "313351532401",
+                                "payerClaimControlNumber": "26055Z0056647",
+                                "totalClaimChargeAmount": "3080.4"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3080.4"
+                            },
+                            "patientName": {
+                                "firstName": "MARY",
+                                "lastName": "HILL",
+                                "memberId": "313351532401",
+                                "middleName": "H"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3080.4",
+                                        "lineItemProviderPaymentAmount": "3080.4",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "30"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3080.4"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "667.42",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "105331823299",
+                                "payerClaimControlNumber": "26055Z0056279",
+                                "totalClaimChargeAmount": "667.42"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "667.42"
+                            },
+                            "patientName": {
+                                "firstName": "CANDICE",
+                                "lastName": "HODGE",
+                                "memberId": "105331823299",
+                                "middleName": "N"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "667.42",
+                                        "lineItemProviderPaymentAmount": "667.42",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "13"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "667.42"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "821.44",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "745027462102",
+                                "payerClaimControlNumber": "26054Z0018130",
+                                "totalClaimChargeAmount": "821.44"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-10-31",
+                            "claimStatementPeriodStart": "2025-10-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "821.44"
+                            },
+                            "patientName": {
+                                "firstName": "ALICE",
+                                "lastName": "HUMMEL",
+                                "memberId": "745027462102",
+                                "middleName": "J"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251031",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "821.44",
+                                        "lineItemProviderPaymentAmount": "821.44",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "8"
+                                    },
+                                    "serviceStartDate": "20251001",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "821.44"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "1848.24",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "745027462102",
+                                "payerClaimControlNumber": "26055Z0057561",
+                                "totalClaimChargeAmount": "1848.24"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "1848.24"
+                            },
+                            "patientName": {
+                                "firstName": "ALICE",
+                                "lastName": "HUMMEL",
+                                "memberId": "745027462102",
+                                "middleName": "J"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "1848.24",
+                                        "lineItemProviderPaymentAmount": "1848.24",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "18"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "1848.24"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "1848.24",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "101950745699",
+                                "payerClaimControlNumber": "26055Z0057562",
+                                "totalClaimChargeAmount": "1848.24"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "1848.24"
+                            },
+                            "patientName": {
+                                "firstName": "MICHAEL",
+                                "lastName": "HUMMEL",
+                                "memberId": "101950745699",
+                                "middleName": "S"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "1848.24",
+                                        "lineItemProviderPaymentAmount": "1848.24",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "18"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "1848.24"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "2669.68",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "314349467603",
+                                "payerClaimControlNumber": "26055Z0056659",
+                                "totalClaimChargeAmount": "2669.68"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-10-31",
+                            "claimStatementPeriodStart": "2025-10-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "2669.68"
+                            },
+                            "patientName": {
+                                "firstName": "CORA",
+                                "lastName": "JACKSON",
+                                "memberId": "314349467603",
+                                "middleName": "M"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251031",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "2669.68",
+                                        "lineItemProviderPaymentAmount": "2669.68",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "26"
+                                    },
+                                    "serviceStartDate": "20251001",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "2669.68"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3080.4",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "314349467603",
+                                "payerClaimControlNumber": "26055Z0057563",
+                                "totalClaimChargeAmount": "3080.4"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3080.4"
+                            },
+                            "patientName": {
+                                "firstName": "CORA",
+                                "lastName": "JACKSON",
+                                "memberId": "314349467603",
+                                "middleName": "M"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3080.4",
+                                        "lineItemProviderPaymentAmount": "3080.4",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "30"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3080.4"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "1745.56",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "103916572399",
+                                "payerClaimControlNumber": "26055Z0056278",
+                                "totalClaimChargeAmount": "1745.56"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "1745.56"
+                            },
+                            "patientName": {
+                                "firstName": "KENNETH",
+                                "lastName": "JOHNSON",
+                                "memberId": "103916572399",
+                                "middleName": "L",
+                                "suffix": "JR"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "1745.56",
+                                        "lineItemProviderPaymentAmount": "1745.56",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "17"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "1745.56"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "2977.72",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "531007504801",
+                                "payerClaimControlNumber": "26054Z0018129",
+                                "totalClaimChargeAmount": "2977.72"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-10-31",
+                            "claimStatementPeriodStart": "2025-10-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "2977.72"
+                            },
+                            "patientName": {
+                                "firstName": "WILLIAM",
+                                "lastName": "JUSTICE",
+                                "memberId": "531007504801",
+                                "middleName": "J"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251031",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "2977.72",
+                                        "lineItemProviderPaymentAmount": "2977.72",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "29"
+                                    },
+                                    "serviceStartDate": "20251001",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "2977.72"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3080.4",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "531007504801",
+                                "payerClaimControlNumber": "26055Z0056656",
+                                "totalClaimChargeAmount": "3080.4"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3080.4"
+                            },
+                            "patientName": {
+                                "firstName": "WILLIAM",
+                                "lastName": "JUSTICE",
+                                "memberId": "531007504801",
+                                "middleName": "J"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3080.4",
+                                        "lineItemProviderPaymentAmount": "3080.4",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "30"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3080.4"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3183.08",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "774210420602",
+                                "payerClaimControlNumber": "26054Z0018127",
+                                "totalClaimChargeAmount": "3183.08"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-10-31",
+                            "claimStatementPeriodStart": "2025-10-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3183.08"
+                            },
+                            "patientName": {
+                                "firstName": "WENDY",
+                                "lastName": "KING",
+                                "memberId": "774210420602",
+                                "middleName": "L"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251031",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3183.08",
+                                        "lineItemProviderPaymentAmount": "3183.08",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "31"
+                                    },
+                                    "serviceStartDate": "20251001",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3183.08"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3080.4",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "774210420602",
+                                "payerClaimControlNumber": "26055Z0056638",
+                                "totalClaimChargeAmount": "3080.4"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3080.4"
+                            },
+                            "patientName": {
+                                "firstName": "WENDY",
+                                "lastName": "KING",
+                                "memberId": "774210420602",
+                                "middleName": "L"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3080.4",
+                                        "lineItemProviderPaymentAmount": "3080.4",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "30"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3080.4"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3080.4",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "103600812499",
+                                "payerClaimControlNumber": "26055Z0057658",
+                                "totalClaimChargeAmount": "3080.4"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3080.4"
+                            },
+                            "patientName": {
+                                "firstName": "BRITTANY",
+                                "lastName": "LOWE",
+                                "memberId": "103600812499"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3080.4",
+                                        "lineItemProviderPaymentAmount": "3080.4",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "30"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3080.4"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "2053.6",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "105444034099",
+                                "payerClaimControlNumber": "26055Z0056660",
+                                "totalClaimChargeAmount": "2053.6"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-10-31",
+                            "claimStatementPeriodStart": "2025-10-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "2053.6"
+                            },
+                            "patientName": {
+                                "firstName": "GREGORY",
+                                "lastName": "MOORE",
+                                "memberId": "105444034099"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251031",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "2053.6",
+                                        "lineItemProviderPaymentAmount": "2053.6",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "20"
+                                    },
+                                    "serviceStartDate": "20251001",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "2053.6"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "2053.6",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "105444034099",
+                                "payerClaimControlNumber": "26055Z0057564",
+                                "totalClaimChargeAmount": "2053.6"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "2053.6"
+                            },
+                            "patientName": {
+                                "firstName": "GREGORY",
+                                "lastName": "MOORE",
+                                "memberId": "105444034099"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "2053.6",
+                                        "lineItemProviderPaymentAmount": "2053.6",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "20"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "2053.6"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "2772.36",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "254336359802",
+                                "payerClaimControlNumber": "26055Z0056275",
+                                "totalClaimChargeAmount": "2772.36"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "2772.36"
+                            },
+                            "patientName": {
+                                "firstName": "MICHELLE",
+                                "lastName": "NUTT",
+                                "memberId": "254336359802"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "2772.36",
+                                        "lineItemProviderPaymentAmount": "2772.36",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "27"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "2772.36"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3080.4",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "489294951405",
+                                "payerClaimControlNumber": "26055Z0056283",
+                                "totalClaimChargeAmount": "3080.4"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3080.4"
+                            },
+                            "patientName": {
+                                "firstName": "MARTHA",
+                                "lastName": "PHILLIPS",
+                                "memberId": "489294951405"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3080.4",
+                                        "lineItemProviderPaymentAmount": "3080.4",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "30"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3080.4"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "1540.2",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "489294951405",
+                                "payerClaimControlNumber": "26055Z0056640",
+                                "totalClaimChargeAmount": "1540.2"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-10-31",
+                            "claimStatementPeriodStart": "2025-10-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "1540.2"
+                            },
+                            "patientName": {
+                                "firstName": "MARTHA",
+                                "lastName": "PHILLIPS",
+                                "memberId": "489294951405"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251031",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "1540.2",
+                                        "lineItemProviderPaymentAmount": "1540.2",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "15"
+                                    },
+                                    "serviceStartDate": "20251001",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "1540.2"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3183.08",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "484448012102",
+                                "payerClaimControlNumber": "26052Z0008722",
+                                "totalClaimChargeAmount": "3183.08"
+                            },
+                            "claimReceivedDate": "20260220",
+                            "claimStatementPeriodEnd": "2025-08-30",
+                            "claimStatementPeriodStart": "2025-08-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3183.08"
+                            },
+                            "patientName": {
+                                "firstName": "EVA",
+                                "lastName": "REASONOVER",
+                                "memberId": "484448012102",
+                                "middleName": "M"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20250830",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3183.08",
+                                        "lineItemProviderPaymentAmount": "3183.08",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "31"
+                                    },
+                                    "serviceStartDate": "20250801",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3183.08"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3080.4",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "484448012102",
+                                "payerClaimControlNumber": "26052Z0008991",
+                                "totalClaimChargeAmount": "3080.4"
+                            },
+                            "claimReceivedDate": "20260221",
+                            "claimStatementPeriodEnd": "2025-09-30",
+                            "claimStatementPeriodStart": "2025-09-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3080.4"
+                            },
+                            "patientName": {
+                                "firstName": "EVA",
+                                "lastName": "REASONOVER",
+                                "memberId": "484448012102",
+                                "middleName": "M"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20250930",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3080.4",
+                                        "lineItemProviderPaymentAmount": "3080.4",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "30"
+                                    },
+                                    "serviceStartDate": "20250901",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3080.4"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3183.08",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "484448012102",
+                                "payerClaimControlNumber": "26054Z0018119",
+                                "totalClaimChargeAmount": "3183.08"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-10-31",
+                            "claimStatementPeriodStart": "2025-10-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3183.08"
+                            },
+                            "patientName": {
+                                "firstName": "EVA",
+                                "lastName": "REASONOVER",
+                                "memberId": "484448012102",
+                                "middleName": "M"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251031",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3183.08",
+                                        "lineItemProviderPaymentAmount": "3183.08",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "31"
+                                    },
+                                    "serviceStartDate": "20251001",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3183.08"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3080.4",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "484448012102",
+                                "payerClaimControlNumber": "26055Z0056644",
+                                "totalClaimChargeAmount": "3080.4"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3080.4"
+                            },
+                            "patientName": {
+                                "firstName": "EVA",
+                                "lastName": "REASONOVER",
+                                "memberId": "484448012102",
+                                "middleName": "M"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3080.4",
+                                        "lineItemProviderPaymentAmount": "3080.4",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "30"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3080.4"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "1540.2",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "105365382899",
+                                "payerClaimControlNumber": "26052Z0008998",
+                                "totalClaimChargeAmount": "1540.2"
+                            },
+                            "claimReceivedDate": "20260221",
+                            "claimStatementPeriodEnd": "2025-09-30",
+                            "claimStatementPeriodStart": "2025-09-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "1540.2"
+                            },
+                            "patientName": {
+                                "firstName": "SHIRLEY",
+                                "lastName": "REESE",
+                                "memberId": "105365382899",
+                                "middleName": "A"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20250930",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "1540.2",
+                                        "lineItemProviderPaymentAmount": "1540.2",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "15"
+                                    },
+                                    "serviceStartDate": "20250901",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "1540.2"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3183.08",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "105365382899",
+                                "payerClaimControlNumber": "26054Z0018125",
+                                "totalClaimChargeAmount": "3183.08"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-10-31",
+                            "claimStatementPeriodStart": "2025-10-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3183.08"
+                            },
+                            "patientName": {
+                                "firstName": "SHIRLEY",
+                                "lastName": "REESE",
+                                "memberId": "105365382899",
+                                "middleName": "A"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251031",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3183.08",
+                                        "lineItemProviderPaymentAmount": "3183.08",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "31"
+                                    },
+                                    "serviceStartDate": "20251001",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3183.08"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3080.4",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "105365382899",
+                                "payerClaimControlNumber": "26055Z0056649",
+                                "totalClaimChargeAmount": "3080.4"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3080.4"
+                            },
+                            "patientName": {
+                                "firstName": "SHIRLEY",
+                                "lastName": "REESE",
+                                "memberId": "105365382899",
+                                "middleName": "A"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3080.4",
+                                        "lineItemProviderPaymentAmount": "3080.4",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "30"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3080.4"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3080.4",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "319307871802",
+                                "payerClaimControlNumber": "26055Z0056648",
+                                "totalClaimChargeAmount": "3080.4"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3080.4"
+                            },
+                            "patientName": {
+                                "firstName": "ANNETTE",
+                                "lastName": "ROBINSON",
+                                "memberId": "319307871802"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3080.4",
+                                        "lineItemProviderPaymentAmount": "3080.4",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "30"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3080.4"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "2772.36",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "103505192799",
+                                "payerClaimControlNumber": "26055Z0056248",
+                                "totalClaimChargeAmount": "3080.4"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "2772.36"
+                            },
+                            "patientName": {
+                                "firstName": "PAMELA",
+                                "lastName": "ROONEY",
+                                "memberId": "103505192799"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceAdjustments": [
+                                        {
+                                            "adjustmentAmount1": "308.04",
+                                            "adjustmentQuantity1": "1",
+                                            "adjustmentReasonCode1": "58",
+                                            "adjustmentReason1": "Treatment was deemed by the payer to have been rendered in an inappropriate or invalid place of service. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",
+                                            "claimAdjustmentGroupCode": "CO",
+                                            "claimAdjustmentGroupCodeValue": "Contractual Obligation"
+                                        }
+                                    ],
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3080.4",
+                                        "lineItemProviderPaymentAmount": "2772.36",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "27"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "2772.36"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "205.36",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "103505192799",
+                                "payerClaimControlNumber": "26055Z0056634",
+                                "totalClaimChargeAmount": "205.36"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-10-31",
+                            "claimStatementPeriodStart": "2025-10-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "205.36"
+                            },
+                            "patientName": {
+                                "firstName": "PAMELA",
+                                "lastName": "ROONEY",
+                                "memberId": "103505192799"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251031",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "205.36",
+                                        "lineItemProviderPaymentAmount": "205.36",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "2"
+                                    },
+                                    "serviceStartDate": "20251001",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "205.36"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "718.76",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "879008491002",
+                                "payerClaimControlNumber": "26055Z0056639",
+                                "totalClaimChargeAmount": "718.76"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-10-31",
+                            "claimStatementPeriodStart": "2025-10-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "718.76"
+                            },
+                            "patientName": {
+                                "firstName": "LINDA",
+                                "lastName": "SCHREIBER",
+                                "memberId": "879008491002",
+                                "middleName": "D"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251031",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "718.76",
+                                        "lineItemProviderPaymentAmount": "718.76",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "7"
+                                    },
+                                    "serviceStartDate": "20251001",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "718.76"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3080.4",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "315092302102",
+                                "payerClaimControlNumber": "26055Z0056642",
+                                "totalClaimChargeAmount": "3080.4"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3080.4"
+                            },
+                            "patientName": {
+                                "firstName": "CLARA",
+                                "lastName": "STODGHILL",
+                                "memberId": "315092302102",
+                                "middleName": "C"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3080.4",
+                                        "lineItemProviderPaymentAmount": "3080.4",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "30"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3080.4"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "1848.24",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "109788178199",
+                                "payerClaimControlNumber": "26055Z0056284",
+                                "totalClaimChargeAmount": "1848.24"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "1848.24"
+                            },
+                            "patientName": {
+                                "firstName": "ROBERT",
+                                "lastName": "TOTH",
+                                "memberId": "109788178199",
+                                "middleName": "M"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "1848.24",
+                                        "lineItemProviderPaymentAmount": "1848.24",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "18"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "1848.24"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "2669.68",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "103164436099",
+                                "payerClaimControlNumber": "26055Z0056277",
+                                "totalClaimChargeAmount": "2669.68"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "2669.68"
+                            },
+                            "patientName": {
+                                "firstName": "MICHAELA",
+                                "lastName": "WAGERS",
+                                "memberId": "103164436099"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "2669.68",
+                                        "lineItemProviderPaymentAmount": "2669.68",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "26"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "2669.68"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3080.4",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "108018889799",
+                                "payerClaimControlNumber": "26055Z0056274",
+                                "totalClaimChargeAmount": "3080.4"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3080.4"
+                            },
+                            "patientName": {
+                                "firstName": "RICHARD",
+                                "lastName": "WERNER",
+                                "memberId": "108018889799",
+                                "middleName": "A",
+                                "suffix": "JR"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3080.4",
+                                        "lineItemProviderPaymentAmount": "3080.4",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "30"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3080.4"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "2258.96",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "102345148599",
+                                "payerClaimControlNumber": "26055Z0056661",
+                                "totalClaimChargeAmount": "2258.96"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-10-31",
+                            "claimStatementPeriodStart": "2025-10-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "2258.96"
+                            },
+                            "patientName": {
+                                "firstName": "DANIEL",
+                                "lastName": "WHITED",
+                                "memberId": "102345148599"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251031",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "2258.96",
+                                        "lineItemProviderPaymentAmount": "2258.96",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "22"
+                                    },
+                                    "serviceStartDate": "20251001",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "2258.96"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "claimContactInformation": [
+                                {
+                                    "contactMethods": [
+                                        {
+                                            "phone": "8553640974"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "claimPaymentInfo": {
+                                "claimFilingIndicatorCode": "MB",
+                                "claimFrequencyCode": "1",
+                                "claimPaymentAmount": "3080.4",
+                                "claimStatusCode": "1",
+                                "facilityTypeCode": "12",
+                                "patientControlNumber": "102345148599",
+                                "payerClaimControlNumber": "26055Z0057649",
+                                "totalClaimChargeAmount": "3080.4"
+                            },
+                            "claimReceivedDate": "20260223",
+                            "claimStatementPeriodEnd": "2025-11-30",
+                            "claimStatementPeriodStart": "2025-11-01",
+                            "claimSupplementalInformation": {
+                                "coverageAmount": "3080.4"
+                            },
+                            "patientName": {
+                                "firstName": "DANIEL",
+                                "lastName": "WHITED",
+                                "memberId": "102345148599"
+                            },
+                            "serviceLines": [
+                                {
+                                    "lineItemControlNumber": "1",
+                                    "serviceEndDate": "20251130",
+                                    "servicePaymentInformation": {
+                                        "adjudicatedProcedureCode": "S5136",
+                                        "lineItemChargeAmount": "3080.4",
+                                        "lineItemProviderPaymentAmount": "3080.4",
+                                        "productOrServiceIDQualifier": "HC",
+                                        "productOrServiceIDQualifierValue": "Health Care Financing Administration Common Procedural Coding System (HCPCS) Codes",
+                                        "unitsOfServicePaidCount": "30"
+                                    },
+                                    "serviceStartDate": "20251101",
+                                    "serviceSupplementalAmounts": {
+                                        "allowedActual": "3080.4"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "financialInformation": {
+                "checkIssueOrEFTEffectiveDate": "20260302",
+                "creditOrDebitFlagCode": "C",
+                "paymentMethodCode": "CHK",
+                "totalActualProviderPaymentAmount": "127169.18",
+                "transactionHandlingCode": "I"
+            },
+            "payee": {
+                "address": {
+                    "address1": "218 SHOVE ST",
+                    "city": "FALL RIVER",
+                    "postalCode": "02724",
+                    "state": "MA"
+                },
+                "federalTaxPayersIdentificationNumber": "462744465",
+                "name": "PREFERRED ADULT FOSTER CARE",
+                "npi": "1245675776"
+            },
+            "payer": {
+                "address": {
+                    "address1": "P.O. Box 982979",
+                    "city": "El Paso",
+                    "postalCode": "79998",
+                    "state": "TX"
+                },
+                "businessContactInformation": {
+                    "contactMethods": [
+                        {
+                            "fax": "4408355656"
+                        }
+                    ],
+                    "contactName": "EDI SUPPORT TEAM"
+                },
+                "name": "Aetna Better Health of Ohio",
+                "payerIdentificationNumber": "50023",
+                "technicalContactInformation": [
+                    {
+                        "contactName": "EDI SUPPORT TEAM"
+                    }
+                ]
+            },
+            "paymentAndRemitReassociationDetails": {
+                "checkOrEFTTraceNumber": "395332217",
+                "originatingCompanyIdentifier": "1341858379",
+                "traceTypeCode": "1"
+            },
+            "productionDate": "20260302"
+        }
+    ]
+}

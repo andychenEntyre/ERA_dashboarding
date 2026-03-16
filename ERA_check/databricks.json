@@ -1,0 +1,87 @@
+{
+    "event": {
+        "version": "0",
+        "id": "40b995d1-d1f7-4f01-97d0-c6f8a4016f37",
+        "detail-type": "transaction.processed.v2",
+        "source": "stedi.core",
+        "account": "833020880578",
+        "time": "2026-03-03T18:37:46Z",
+        "region": "us-east-1",
+        "resources": [
+            "https://core.us.stedi.com/2023-08-01/transactions/c0a454f5-2296-4f32-b9c2-1d1c32da9596"
+        ],
+        "detail": {
+            "transactionId": "c0a454f5-2296-4f32-b9c2-1d1c32da9596",
+            "direction": "INBOUND",
+            "mode": "production",
+            "status": "succeeded",
+            "fileExecutionId": "92bf74df-bfae-4722-abc1-49055c09ac22",
+            "processedAt": "2026-03-03T18:37:45.930Z",
+            "fragments": null,
+            "artifacts": [
+                {
+                    "artifactType": "application/edi-x12",
+                    "usage": "input",
+                    "url": "https://core.us.stedi.com/2023-08-01/transactions/c0a454f5-2296-4f32-b9c2-1d1c32da9596/input",
+                    "sizeBytes": 14789,
+                    "model": "transaction"
+                },
+                {
+                    "artifactType": "application/json",
+                    "usage": "output",
+                    "url": "https://core.us.stedi.com/2023-08-01/transactions/c0a454f5-2296-4f32-b9c2-1d1c32da9596/output",
+                    "sizeBytes": 96246,
+                    "model": "transaction"
+                }
+            ],
+            "partnership": {
+                "partnershipId": "local-clearinghouse",
+                "partnershipType": "x12",
+                "sender": {
+                    "profileId": "clearinghouse"
+                },
+                "receiver": {
+                    "profileId": "local"
+                }
+            },
+            "x12": {
+                "transactionSetting": {
+                    "guideId": "01K9D1SW3GEJXFWE6ARE5KD6X2",
+                    "transactionSettingId": "01K9D1T7C60RVAGATJMF988GFZ"
+                },
+                "metadata": {
+                    "interchange": {
+                        "acknowledgmentRequestedCode": "0",
+                        "controlNumber": 204
+                    },
+                    "functionalGroup": {
+                        "controlNumber": 204,
+                        "release": "005010X221A1",
+                        "date": "2026-03-03",
+                        "time": "18:37:11",
+                        "functionalIdentifierCode": "HP"
+                    },
+                    "transaction": {
+                        "controlNumber": "0001",
+                        "transactionSetIdentifier": "835"
+                    },
+                    "receiver": {
+                        "applicationCode": "833020880578",
+                        "isa": {
+                            "qualifier": "ZZ",
+                            "id": "833020880578"
+                        }
+                    },
+                    "sender": {
+                        "applicationCode": "STEDI",
+                        "isa": {
+                            "qualifier": "ZZ",
+                            "id": "STEDI"
+                        }
+                    }
+                }
+            },
+            "connectionId": "01K9D1TA1G8F898HRXWN6CH579"
+        }
+    }
+}
