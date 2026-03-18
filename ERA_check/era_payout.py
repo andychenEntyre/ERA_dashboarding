@@ -118,7 +118,7 @@ def write_results_to_postgres(results_df):
         "sqlmesh.core.config.connection"
     ).PostgresConnectionConfig
 
-    schema_name = _get_env("SQLMESH_DEV_SCHEMA", default="public")
+    schema_name = _get_env("SQLMESH_DEV_SCHEMA", default="raw")
     table_name = _get_env("SQLMESH_DEV_TABLE", default="era_payout_results")
     write_mode = _get_env("SQLMESH_DEV_WRITE_MODE", default="replace").lower()
 
