@@ -1,0 +1,26 @@
+# --- Gateway Connection ---
+gateways:
+  dev:
+    connection:
+      type: postgres
+      host: "{{ env_var('SQLMESH_DEV_HOST') }}"
+      port: "{{ env_var('SQLMESH_DEV_PORT', '5432') }}"
+      user: "{{ env_var('SQLMESH_DEV_USER') }}"
+      password: "{{ env_var('SQLMESH_DEV_PASSWORD') }}"
+      database: "{{ env_var('SQLMESH_DEV_DATABASE') }}"
+      sslmode: "{{ env_var('SQLMESH_DEV_SSLMODE', 'require') }}"
+
+default_gateway: dev
+
+
+model_defaults:
+  dialect: postgres
+  start: 2026-02-06
+  cron: '@daily'
+
+linter:
+  enabled: true
+  rules:
+    - ambiguousorinvalidcolumn
+    - invalidselectstarexpansion
+    - noambiguousprojections
