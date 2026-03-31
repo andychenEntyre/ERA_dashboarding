@@ -9,8 +9,17 @@ gateways:
       password: "{{ env_var('SQLMESH_DEV_PASSWORD') }}"
       database: "{{ env_var('SQLMESH_DEV_DATABASE') }}"
       sslmode: "{{ env_var('SQLMESH_DEV_SSLMODE', 'require') }}"
+  prod:
+    connection:
+      type: postgres
+      host: "{{ env_var('SQLMESH_PROD_HOST') }}"
+      port: "{{ env_var('SQLMESH_PROD_PORT', '5432') }}"
+      user: "{{ env_var('SQLMESH_PROD_USER') }}"
+      password: "{{ env_var('SQLMESH_PROD_PASSWORD') }}"
+      database: "{{ env_var('SQLMESH_PROD_DATABASE') }}"
+      sslmode: "{{ env_var('SQLMESH_PROD_SSLMODE', 'require') }}"
 
-default_gateway: dev
+default_gateway: prod
 
 
 model_defaults:
