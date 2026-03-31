@@ -263,7 +263,9 @@ def _parse_stedi_loop_payload(payload: dict[str, t.Any]) -> dict[str, t.Any]:
                 )
             if parsed["member_id"] is None:
                 parsed["member_id"] = _first_non_empty(
+                    subscriber_nm1.get("subscriber_primary_identifier_09"),
                     subscriber_nm1.get("subscriber_identification_code_09"),
+                    subscriber_nm1.get("identification_code_09"),
                     subscriber_sbr.get("subscriber_group_or_policy_number_03"),
                     subscriber_sbr.get("insured_group_or_policy_number_03"),
                 )
