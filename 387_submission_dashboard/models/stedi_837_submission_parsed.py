@@ -551,6 +551,7 @@ def _parse_payload(document_format: str | None, payload_text: str) -> tuple[dict
 
 @model(
     "raw.stedi_837_submission_parsed",
+    cron="@hourly",
     kind={
         "name": ModelKindName.INCREMENTAL_BY_UNIQUE_KEY,
         "unique_key": ["transaction_id"],

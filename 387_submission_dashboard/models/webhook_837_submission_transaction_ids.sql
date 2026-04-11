@@ -1,6 +1,7 @@
 MODEL (
   name raw.stedi_837_submissions,
   kind VIEW,
+  cron '@hourly',
   grain (_id)
 );
 

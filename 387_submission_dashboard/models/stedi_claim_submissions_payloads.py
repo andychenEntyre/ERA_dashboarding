@@ -64,6 +64,7 @@ _load_dotenv()
 
 @model(
     "raw.stedi_claim_submissions_payloads",
+    cron="@hourly",
     kind={
         "name": ModelKindName.INCREMENTAL_BY_UNIQUE_KEY,
         "unique_key": ["transaction_id"],

@@ -39,6 +39,28 @@ def _as_list(value: t.Any) -> list[t.Any]:
     return value if isinstance(value, list) else []
 
 
+def _extract_service_adjustment_values(payment_obj: dict[str, t.Any]) -> tuple[str | None, str | None]:
+    reason_codes: set[str] = set()
+    reasons: set[str] = set()
+
+    for service_line in _as_list(payment_obj.get("serviceLines")):
+        service_line_obj = _as_dict(service_line)
+        for service_adjustment in _as_list(service_line_obj.get("serviceAdjustments")):
+            service_adjustment_obj = _as_dict(service_adjustment)
+
+            reason_code = _first_non_empty(service_adjustment_obj.get("adjustmentReasonCode1"))
+            reason = _first_non_empty(service_adjustment_obj.get("adjustmentReason1"))
+
+            if reason_code:
+                reason_codes.add(reason_code)
+            if reason:
+                reasons.add(reason)
+
+    reason_codes_text = ",".join(sorted(reason_codes)) if reason_codes else None
+    reasons_text = ",".join(sorted(reasons)) if reasons else None
+    return reason_codes_text, reasons_text
+
+
 def _claim_row_id(
     transaction_id: str,
     patient_control_number_01: str | None,
@@ -122,6 +144,10 @@ def _extract_claim_rows(payload: dict[str, t.Any], transaction_id: str) -> list[
                         patient.get("lastName"),
                         patient.get("patient_last_name_03"),
                     )
+                    (
+                        service_adjustment_reason_codes_1,
+                        service_adjustment_reasons_1,
+                    ) = _extract_service_adjustment_values(payment_obj)
 
                     row_index = len(rows)
                     rows.append(
@@ -139,6 +165,8 @@ def _extract_claim_rows(payload: dict[str, t.Any], transaction_id: str) -> list[
                             "payer_claim_control_number_07": payer_claim_control_number_07,
                             "patient_first_name_04": patient_first_name_04,
                             "patient_last_name_03": patient_last_name_03,
+                            "service_adjustment_reason_codes_1": service_adjustment_reason_codes_1,
+                            "service_adjustment_reasons_1": service_adjustment_reasons_1,
                             "total_claim_charge_amount_03": _to_float(
                                 _first_non_empty(
                                     claim_payment.get("totalClaimChargeAmount"),
@@ -186,6 +214,8 @@ def _extract_claim_rows(payload: dict[str, t.Any], transaction_id: str) -> list[
                     "payer_claim_control_number_07": payer_claim_control_number_07,
                     "patient_first_name_04": patient_first_name_04,
                     "patient_last_name_03": patient_last_name_03,
+                    "service_adjustment_reason_codes_1": None,
+                    "service_adjustment_reasons_1": None,
                     "total_claim_charge_amount_03": _to_float(_first_non_empty(clp.get("total_claim_charge_amount_03"))),
                     "claim_payment_amount_04": _to_float(_first_non_empty(clp.get("claim_payment_amount_04"))),
                     "parse_error": None,
@@ -211,6 +241,8 @@ def _extract_claim_rows(payload: dict[str, t.Any], transaction_id: str) -> list[
         "payer_claim_control_number_07": "text",
         "patient_first_name_04": "text",
         "patient_last_name_03": "text",
+        "service_adjustment_reason_codes_1": "text",
+        "service_adjustment_reasons_1": "text",
         "total_claim_charge_amount_03": "double precision",
         "claim_payment_amount_04": "double precision",
         "parse_error": "text",
