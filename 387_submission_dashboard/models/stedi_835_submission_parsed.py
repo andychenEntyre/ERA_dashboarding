@@ -84,6 +84,7 @@ def _error_row(transaction_id: str, error_message: str) -> dict[str, t.Any]:
         "transaction_id": transaction_id,
         "check_issue_or_eft_effective_date_16": None,
         "check_or_eft_trace_number_02": None,
+        "payer_name_02": None,
         "patient_control_number_01": None,
         "payer_claim_control_number_07": None,
         "patient_first_name_04": None,
@@ -104,6 +105,7 @@ def _extract_claim_rows(payload: dict[str, t.Any], transaction_id: str) -> list[
 
     default_effective_date = _first_non_empty(heading_bpr.get("check_issue_or_eft_effective_date_16"))
     default_trace_number = _first_non_empty(heading_trn.get("check_or_eft_trace_number_02"))
+    default_payer_name = None
 
     transactions = _as_list(payload.get("transactions"))
     if transactions:
@@ -120,6 +122,8 @@ def _extract_claim_rows(payload: dict[str, t.Any], transaction_id: str) -> list[
                 reassociation.get("checkOrEFTTraceNumber"),
                 default_trace_number,
             )
+            payer_info = _as_dict(transaction_obj.get("payer"))
+            payer_name_02 = _first_non_empty(payer_info.get("name"))
 
             for detail in _as_list(transaction_obj.get("detailInfo")):
                 detail_obj = _as_dict(detail)
@@ -161,6 +165,7 @@ def _extract_claim_rows(payload: dict[str, t.Any], transaction_id: str) -> list[
                             "transaction_id": transaction_id,
                             "check_issue_or_eft_effective_date_16": check_issue_or_eft_effective_date_16,
                             "check_or_eft_trace_number_02": check_or_eft_trace_number_02,
+                            "payer_name_02": payer_name_02,
                             "patient_control_number_01": patient_control_number_01,
                             "payer_claim_control_number_07": payer_claim_control_number_07,
                             "patient_first_name_04": patient_first_name_04,
@@ -210,6 +215,7 @@ def _extract_claim_rows(payload: dict[str, t.Any], transaction_id: str) -> list[
                     "transaction_id": transaction_id,
                     "check_issue_or_eft_effective_date_16": default_effective_date,
                     "check_or_eft_trace_number_02": default_trace_number,
+                    "payer_name_02": default_payer_name,
                     "patient_control_number_01": patient_control_number_01,
                     "payer_claim_control_number_07": payer_claim_control_number_07,
                     "patient_first_name_04": patient_first_name_04,
@@ -237,6 +243,7 @@ def _extract_claim_rows(payload: dict[str, t.Any], transaction_id: str) -> list[
         "transaction_id": "text",
         "check_issue_or_eft_effective_date_16": "text",
         "check_or_eft_trace_number_02": "text",
+        "payer_name_02": "text",
         "patient_control_number_01": "text",
         "payer_claim_control_number_07": "text",
         "patient_first_name_04": "text",
